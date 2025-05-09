@@ -2,8 +2,7 @@
 import HomeLinks from '../components/home/HomeLinks.vue'
 import { useTitle } from '@vueuse/core'
 
-const title = useTitle("Frontend Mentor Task")
-
+const title = useTitle('Frontend Mentor Task')
 </script>
 
 <template>
