@@ -38,7 +38,7 @@ jobs:
       - name: Install dependencies
         run: rm -rf node_modules && yarn install --frozen-lockfile
       - name: Build
-        run: BASE_URL=/frontendmentor yarn build
+        run: BASE_PATH=/frontendmentor yarn build
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
