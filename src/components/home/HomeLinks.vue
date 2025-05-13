@@ -3,7 +3,8 @@ import { RouterLink } from 'vue-router'
 
 const pages = [
   { label: 'QR Codes', path: '/qrcode' },
-  { label: 'Blog Preivew', path: '/blog-preview' },
+  { label: 'Blog Preview', path: '/blog-preview' },
+  { label: 'Social Links', path: '/social-links' },
 ]
 </script>
 

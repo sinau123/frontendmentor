@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import QRCodeView from '@/views/QRCodeView.vue'
 import BlogPreviewView from '@/views/BlogPreviewView.vue'
+import SocialLinks from '@/views/SocialLinks.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -22,12 +23,9 @@ const router = createRouter({
       component: BlogPreviewView,
     },
     {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AboutView.vue'),
+      path: '/social-links',
+      name: 'social-links',
+      component: SocialLinks,
     },
   ],
 })

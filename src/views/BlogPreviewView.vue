@@ -6,7 +6,7 @@ import IconWithoutOptimizer from '../assets/images/illustration-article.svg'
   <div class="flex items-center justify-center bg-[#f4d04e] h-[100svh] overflow-y-auto p-6">
     <div
       class="group/card cursor-pointer flex gap-3 flex-col card-container border border-black rounded-3xl overflow-hidden bg-white p-6 m-auto max-w-[320px]"
-      tabindex="1"
+      tabindex=""
     >
       <figure class="flex justify-center rounded-xl overflow-hidden">
         <IconWithoutOptimizer class="w-full" />
