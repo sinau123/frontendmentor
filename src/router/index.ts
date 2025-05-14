@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import QRCodeView from '@/views/QRCodeView.vue'
 import BlogPreviewView from '@/views/BlogPreviewView.vue'
 import SocialLinks from '@/views/SocialLinks.vue'
+import RecipePageView from '@/views/RecipePageView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -26,6 +27,11 @@ const router = createRouter({
       path: '/social-links',
       name: 'social-links',
       component: SocialLinks,
+    },
+    {
+      path: '/recipe-page',
+      name: 'recipe-page',
+      component: RecipePageView,
     },
   ],
 })

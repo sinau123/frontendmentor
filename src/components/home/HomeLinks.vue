@@ -5,6 +5,7 @@ const pages = [
   { label: 'QR Codes', path: '/qrcode' },
   { label: 'Blog Preview', path: '/blog-preview' },
   { label: 'Social Links', path: '/social-links' },
+  { label: 'Recipe Page', path: '/recipe-page' },
 ]
 </script>
 
